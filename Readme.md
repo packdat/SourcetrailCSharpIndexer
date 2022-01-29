@@ -69,4 +69,4 @@ Screenshots
 
 After executing the second example, open the database in Sourcetrail, select the class `Program` and inside that class the method `Main`  
 You should see something like this:  
-![Screenshot1](./SourcetrailCSharpIndexer/doc/Indexer_Sourcetrail.png)  
+![Screenshot1](./doc/Indexer_Sourcetrail.png)  
