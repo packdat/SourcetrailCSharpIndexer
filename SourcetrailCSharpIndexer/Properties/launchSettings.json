@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SourcetrailCSharpIndexer": {
+      "commandName": "Project",
+      "commandLineArgs": "-i C:\\Users\\uncle\\source\\repos\\SourcetrailCSharpIndexer\\SourcetrailCSharpIndexer -o CSharpIndexer.srctrldb -ox -r C:\\Users\\uncle\\source\\repos\\SourcetrailCSharpIndexer\\SourcetrailCSharpIndexer\\bin\\Debug\\net5.0"
+    }
+  }
+}
