@@ -25,9 +25,8 @@ namespace SourcetrailCSharpIndexer
         internal long NumReferences;
         internal long NumErrors;
 
-        public DataCollector(bool clearDatabase = false)
+        public DataCollector(string outputFileName, bool clearDatabase = false)
         {
-            var outputFileName = Globals.Settings.OutputPath;
             if (string.IsNullOrWhiteSpace(outputFileName))
                 throw new ArgumentException("A valid filename is required for the sourcetrail database",
                                             nameof(outputFileName));

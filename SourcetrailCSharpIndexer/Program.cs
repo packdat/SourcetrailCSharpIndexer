@@ -18,7 +18,7 @@ namespace SourcetrailCSharpIndexer
                 Environment.ExitCode = 1;
                 return;
             }
-            Globals.DataCollector = new DataCollector(true);
+            Globals.DataCollector = new DataCollector(Globals.Settings.OutputPath, true);
             try
             {
                 var analyzer = new CSharpAnalyzer();
